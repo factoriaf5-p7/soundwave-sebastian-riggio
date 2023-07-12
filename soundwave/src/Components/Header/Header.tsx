@@ -6,7 +6,7 @@ import logo from '../../assets/logo.png';
 
 const Header: React.FC = () => {
   return (
-    <header className=" text-white text-center py-3" style={{ zIndex: 2}} >
+    <header className="text-white text-center py-3 z-2 container">
       <Container fluid className="d-flex justify-content-between align-items-center" >
         <Link to="/" className=" text-white text-decoration-none align-items-center  ">
           <div className="d-flex align-items-center gap-3">

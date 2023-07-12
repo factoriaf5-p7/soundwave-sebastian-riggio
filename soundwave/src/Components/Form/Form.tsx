@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 const TextControlsExample: React.FC = () => {
   return (
-    <Form className="w-50 bg-black rounded-5 text-white fs-1vw gap-1rem p-4">
+    <Form className="bg-black rounded-5 text-white fs-1vw gap-1rem p-4">
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label className="text-white">Name</Form.Label>
         <Form.Control type="text" placeholder="name@example.com" className="bg-transparent border-0 text-white" />
