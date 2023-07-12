@@ -1,0 +1,65 @@
+:root {
+    --purple-bg: #2F303A;
+    --dark-pink: #6c3671;
+    --dark-blue: #303045;
+    --blue-btn: #2250A3;
+    --dark-purple: #41202c;
+    --pink-circle: #bc3a801a;
+    --blue-circle:#3457b21a;
+  }
+
+
+.pink-circle{
+  
+    width: 35%;
+    padding-bottom: 35%;
+      background-color: var(--dark-pink);
+      border-radius: 50%;
+      position: absolute;
+      top: 32%;
+      left: -15%;
+      opacity: 1;
+      z-index:0; 
+      opacity: 30%;
+  }
+  
+  .purple-circle{
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: var(--dark-purple);
+    border-radius: 50%;
+    position:absolute;
+    top: -20%;
+    left: 12%;
+    opacity: 0.3;
+    z-index:0; 
+    opacity: 30%;
+  }
+
+     @media (max-width: 600px) {
+  .pink-circle {
+    height:200px;
+    width: 200px; 
+    padding-bottom:30% ;
+    background-color: var(--dark-pink);
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    opacity: 0.3;
+    z-index: 0;
+  }
+  
+  .purple-circle {
+    height: 200px;
+    width: 200px;
+    padding-bottom:30% ;
+    background-color: var(--dark-purple);
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    opacity: 0.3;
+    z-index: 0; 
+   
+  }
+}

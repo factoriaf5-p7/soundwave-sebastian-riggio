@@ -1,6 +1,6 @@
 # SOUNDWAVE: un proyecto de React con estilo
 
-## Introducción
+## Introducción al trabajo
 
 SoundWave, se ha posicionado en el mercado como la competencia directa de Spotify. Con una calidad de sonido extraordinaria y la gran variedad de canciones que ofrece está ganando adeptos a pasos agigantados. No obstante, quieren acelerar el proceso de subscripción a su plataforma con una nueva campaña de marketing digital.
 

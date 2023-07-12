@@ -1,0 +1,89 @@
+:root {
+    --purple-bg: #2F303A;
+    --dark-pink: #3E2D40;
+    --dark-blue: #303045;
+    --blue-btn: #2250A3;
+    --dark-purple: #202027;
+    --pink-circle: #bc3a801a;
+    --blue-circle:#3457b21a;
+  }
+
+
+.pink-cirle{
+    width: 25%;
+    padding-bottom: 25%;
+    background-color: var(--pink-circle);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: -5%;
+}
+
+.blue-cirle{
+    width: 25%;
+    padding-bottom: 25%;
+    background-color: var(--blue-circle);
+    border-radius: 50%;
+    position:absolute;
+    top: 5%;
+    left: 18%;
+}
+
+.big-blue-cirle{
+    width: 40%;
+    padding-bottom: 40%;
+    background-color: var(--blue-circle);
+    border-radius: 50%;
+    position: absolute;
+    top: calc(100% - 15%);
+    left: 95%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 991px){
+
+  
+        
+        .pink-cirle{
+            top: 80%;
+            left: -5%;
+        }
+        
+        .blue-cirle{
+            top: 10%;
+            left: 20%;
+        }
+    
+        .big-blue-cirle{
+            top: calc(100% - 5%);
+            left: 98%;
+        }
+        
+}
+
+@media only screen and (max-width: 600px){
+    .girl-photo {
+        display: none;
+      }
+
+
+
+    .pink-cirle{
+        top: 80%;
+        left: -5%;
+    }
+    
+    .blue-cirle{
+        top: 15%;
+        left: 20%;
+    }
+
+    .big-blue-cirle{
+        top: calc(100% - 5%);
+        left: 98%;
+    }
+}
